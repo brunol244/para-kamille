@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ffe6ea 0%, #ffc2d1 100%);
+    overflow: hidden;
+    position: relative;
+}
+
+.tela {
+    text-align: center;
+    padding-bottom: 12vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #d62828;
+    margin-bottom: 30px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+button {
+    width: 120px;
+    height: 48px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#btn-sim {
+    background-color: #2b9348;
+    color: white;
+}
+
+#btn-sim:hover {
+    background-color: #237a3b;
+}
+
+#btn-nao {
+    background-color: #d62828;
+    color: white;
+    z-index: 999;
+}
+
+.escondido {
+    display: none !important;
+}
+
+#foto-casal {
+    max-width: 90vw;
+    max-height: 75vh;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
